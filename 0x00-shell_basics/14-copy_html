@@ -1,4 +1,2 @@
 #!/bin/bash
-Source_directory='pwd'
-Destination_directory='cd ~'
-cp -v $Source_directory/*.html $Destination_directory
+cp -u * .html ..
